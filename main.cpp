@@ -10,6 +10,6 @@ enum class EStatus
 int main()
 {
   EStatus status = EStatus::verbose;
-  std::cout << "Status: " << static_cast<int32_t>(status) << std::endl; 
+  std::cout << "Status(int): " << static_cast<int32_t>(status) << std::endl; 
   return 0;
 }
